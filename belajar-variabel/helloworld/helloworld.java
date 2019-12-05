@@ -9,6 +9,13 @@ public class helloworld{
         mobil fordShelby = new mobil();
         fordShelby.merk = "Ford Mustang Shelby";
         fordShelby.maju();
+
+        if(args.length == 0){
+            System.out.println("No launch option");
+        }
+        else{
+            System.out.println(args[1]+args[0]);
+        }
     }
 }
 
